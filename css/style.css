@@ -46,6 +46,14 @@ header nav ul {
     flex-flow: row nowrap;
     justify-content: space-around;
 }
+.animacionLista:hover{
+    transform: scale(1.05);
+    transition: all 1.5s;
+}
+.animacionLink:hover{
+    color: rgb(7, 5, 32);
+    transition: all 0.2s;
+}
 /*----------------------------------------------*/
 
 
@@ -75,8 +83,12 @@ footer {
 .footerFlexHijoRrss{
     width: 25%;
     justify-content: space-around;
+    padding: 1.2em;
 }
-
+.animacionSvg:hover{
+    transform: scale(1.5);
+    transition: all 1.5s;
+}
 /*----------------------------------------------*/
 
 
@@ -135,7 +147,7 @@ h2 {
     font-size: 2em;
 }
 .parrafos{
-    width: 40%;
+    width: 60%;
     margin: 2em;
     padding: 2em;
     background-color: #C7FFED;
@@ -192,6 +204,10 @@ h2 {
     display: grid;
     justify-items: center;
     align-items: stretch;
+}
+.animacionBoton:hover{
+    transform: scale(1.2);
+    transition: all 1.5s;
 }
 /*----------------------------------------------*/
 

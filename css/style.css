@@ -135,6 +135,7 @@ h2 {
     font-size: 2em;
 }
 .parrafos{
+    width: 40%;
     margin: 2em;
     padding: 2em;
     background-color: #C7FFED;
@@ -181,11 +182,16 @@ h2 {
 
 /*-------------Servicios/Ventas-----------------*/
 .disposicionServicios{
-    height: 100%;
     display: flex;
     flex-flow: column nowrap;
+    justify-content: space-around;
     align-items: center;
     gap: 1em;
+}
+.flexBoxes{
+    display: grid;
+    justify-items: center;
+    align-items: stretch;
 }
 /*----------------------------------------------*/
 
@@ -219,9 +225,10 @@ h2 {
 }
 /*----------------------------------------------*/
 
-/*-----------Responsive-Contacto----------------*/
+/*-----------------Responsive-------------------*/
 /*MOBILE FIRST*/
 @media screen and (max-width: 420px){
+    /* CONTACTO */
     #grillaContacto{
         grid-template-areas: 
         "titulo"
@@ -273,9 +280,23 @@ h2 {
         margin: 1em;
         font-size: 0.8em;
     }
+    /* SERVICIOS/VENTAS */
+    .flexBoxes{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4,1fr);
+    }
+    /* INDEX */
+    .disposicionIndex2 {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
     /*HEADER y TITULO PARA MOBILE*/
     header nav a img {
-        width: 40%;
+        width: 50%;
         border: solid 0.2em black;
     }
     header nav{
@@ -289,16 +310,20 @@ h2 {
         flex-flow: column nowrap;
         justify-content: space-around;
     }
-    .iframeMobile{
+    .ajusteMobile{
         width: 80%;
     }
     .conversorTitulosInline {
         display: inline;
-        font-size: 3em;
+        font-size: 2.5em;
+    }
+    .titulosCentradosConImagen{
+        width: 100%;
     }
 }
 /*TABLETS*/
 @media screen and (min-width: 421px) and (max-width: 1199px){
+    /* CONTACTO */
     #grillaContacto{
         grid-template-areas: 
         "titulo titulo titulo titulo"
@@ -347,10 +372,16 @@ h2 {
         text-align: center;
         margin: 8em;
         font-size: 1.4em;
+    }
+    /* SERVICIOS/VENTAS */
+    .flexBoxes{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 /*DESKTOP*/
 @media screen and (min-width: 1200px){
+    /* CONTACTO */
     #grillaContacto{
         grid-template-areas: 
         "titulo titulo titulo titulo"
@@ -400,4 +431,11 @@ h2 {
         margin: 8em;
         font-size: 1.4em;
     }
+    /* SERVICIOS/VENTAS */
+    .flexBoxes{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
+/*----------------------------------------------*/

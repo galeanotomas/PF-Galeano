@@ -1,0 +1,200 @@
+@media screen and (max-width: 420px){
+    #grillaContacto{
+        grid-template-areas: 
+        "titulo"
+        "formulario"
+        "ubicacion"
+        "foto"
+        "finDePagina";
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        grid-row-gap: 2em;
+    }
+    #tituloContacto{
+        grid-area: titulo;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+    #formulario{
+        grid-area: formulario;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+    #ubicacionMapa{
+        grid-area: ubicacion;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #ubicacionFoto{
+        grid-area: foto;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+    }
+    #finDePagina{
+        grid-area: finDePagina;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .parrafos3{
+        text-align: center;
+        margin: 1em;
+        font-size: 0.8em;
+    }
+    .flexBoxes{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4,1fr);
+    }
+    .disposicionIndex2 {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+    header nav a img {
+        width: 50%;
+        border: solid 0.2em black;
+    }
+    header nav{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    header nav ul {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+    }
+    .ajusteMobile{
+        width: 80%;
+    }
+    .conversorTitulosInline {
+        display: inline;
+        font-size: 2.5em;
+    }
+    .titulosCentradosConImagen{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 421px) and (max-width: 1199px){
+    #grillaContacto{
+        grid-template-areas: 
+        "titulo titulo titulo titulo"
+        "ubicacion ubicacion formulario formulario"
+        "ubicacion ubicacion foto foto"
+        "finDePagina finDePagina finDePagina finDePagina";
+        grid-template-rows: 10em 42em 42em 5em;
+        grid-template-columns: 30% 30% 20% 20%;
+        grid-row-gap: 4em;
+    }
+    #tituloContacto{
+        grid-area: titulo;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #formulario{
+        grid-area: formulario;
+        width: 50%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    #ubicacionMapa{
+        grid-area: ubicacion;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        gap: 4em;
+    }
+    #ubicacionFoto{
+        grid-area: foto;
+        width: 100%;
+    }
+    #finDePagina{
+        grid-area: finDePagina;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .parrafos3{
+        text-align: center;
+        margin: 8em;
+        font-size: 1.4em;
+    }
+    .flexBoxes{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1200px){
+    #grillaContacto{
+        grid-template-areas: 
+        "titulo titulo titulo titulo"
+        "ubicacion ubicacion formulario formulario"
+        "ubicacion ubicacion foto foto"
+        "finDePagina finDePagina finDePagina finDePagina";
+        grid-template-rows: 10em 42em 42em 5em;
+        grid-template-columns: 30% 30% 20% 20%;
+        grid-row-gap: 4em;
+    }
+    #tituloContacto{
+        grid-area: titulo;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #formulario{
+        grid-area: formulario;
+        width: 50%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    #ubicacionMapa{
+        grid-area: ubicacion;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        gap: 4em;
+    }
+    #ubicacionFoto{
+        grid-area: foto;
+        width: 100%;
+    }
+    #finDePagina{
+        grid-area: finDePagina;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .parrafos3{
+        text-align: center;
+        margin: 8em;
+        font-size: 1.4em;
+    }
+    .flexBoxes{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}

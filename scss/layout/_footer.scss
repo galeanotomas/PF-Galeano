@@ -1,0 +1,32 @@
+footer {
+    background-color: #015958;
+    margin-top: 4em;
+    padding: 2em 1em;
+}
+.conversorInline {
+    display: inline;
+    margin: 0;
+}
+.footerFlexPadre{
+    width: 100%;
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+}
+.footerFlexHijoCopyright{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.footerFlexHijoRrss{
+    width: 25%;
+    justify-content: space-around;
+    padding: 1.2em;
+}
+.animacionSvg:hover{
+    transform: scale(1.5);
+    transition: all 1.5s;
+}

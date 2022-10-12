@@ -1,0 +1,16 @@
+.disposicionServicios{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+.flexBoxes{
+    display: grid;
+    justify-items: center;
+    align-items: stretch;
+}
+.animacionBoton:hover{
+    transform: scale(1.2);
+    transition: all 1.5s;
+}

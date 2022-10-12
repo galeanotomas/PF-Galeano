@@ -1,0 +1,19 @@
+#grillaContacto{
+    display: grid;
+}
+#tituloContacto{
+    grid-area: titulo;
+}
+#formulario{
+    grid-area: formulario;
+}
+#ubicacionMapa{
+    grid-area: ubicacion;
+}
+#ubicacionFoto{
+    grid-area: foto;
+    width: 100%;
+}
+#finDePagina{
+    grid-area: finDePagina;
+}

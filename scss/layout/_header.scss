@@ -1,0 +1,38 @@
+header {
+    background-color: #015958;
+    padding: 1em 1em;
+    nav{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        a img {
+            width: 20%;
+            border: solid 0.2em black;
+        }
+        ul {
+            width: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            margin: 1em;
+            li {
+                margin: 0.5em;
+                a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+.animacionLista:hover{
+    transform: scale(1.05);
+    transition: all 1.5s;
+}
+.animacionLink:hover{
+    color: rgb(7, 5, 32);
+    transition: all 0.2s;
+}

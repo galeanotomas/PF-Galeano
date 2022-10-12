@@ -1,0 +1,19 @@
+{
+  "name": "techine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galeanotomas/techine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galeanotomas/techine/issues"
+  },
+  "homepage": "https://github.com/galeanotomas/techine#readme"
+}

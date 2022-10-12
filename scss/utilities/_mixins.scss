@@ -1,0 +1,4 @@
+@mixin boxModel($margin,$padding) {
+    margin: $margin;
+    padding: $padding;
+}

@@ -1,0 +1,10 @@
+.carouselEdit {
+    width: 70%;
+    @include boxModel(1em,4em);
+} 
+.carouselFlex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}

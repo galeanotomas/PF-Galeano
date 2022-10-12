@@ -1,5 +1,5 @@
 header {
-    background-color: #015958;
+    background-color: $colorPrincipal;
     padding: 1em 1em;
     nav{
         width: 100%;
@@ -27,12 +27,4 @@ header {
             }
         }
     }
-}
-.animacionLista:hover{
-    transform: scale(1.05);
-    transition: all 1.5s;
-}
-.animacionLink:hover{
-    color: rgb(7, 5, 32);
-    transition: all 0.2s;
 }

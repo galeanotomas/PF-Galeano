@@ -7,28 +7,17 @@ h2 {
 }
 .parrafos{
     width: 60%;
-    margin: 2em;
-    padding: 2em;
-    background-color: #C7FFED;
+    @include boxModel(2em,2em);
+    background-color: $colorBox;
     border-radius: 0.8em;
 }
 .parrafos2{
-    margin: 3em;
-    padding: 3em;
+    @include boxModel(3em,3em);
     font-size: 1.5em;
 }
 .parrafosConBorde{
     text-align: center;
     border: solid 0.5em #008F8C;
-}
-.boton{
-    margin: 0.3em;
-    padding: 0.3em;
-    background-color: #015958;
-    border-radius: 0.2em;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
 }
 .conversorBlock {
     display: block;

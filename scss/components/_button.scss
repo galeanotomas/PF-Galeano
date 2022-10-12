@@ -1,0 +1,24 @@
+.animacionLista:hover{
+    transform: scale(1.05);
+    transition: all 1.5s;
+}
+.animacionLink:hover{
+    color: rgb(7, 5, 32);
+    transition: all 0.2s;
+}
+.animacionSvg:hover{
+    transform: scale(1.5);
+    transition: all 1.5s;
+}
+.boton{
+    @include boxModel(0.3em,0.3em);
+    background-color: $colorPrincipal;
+    border-radius: 0.2em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.animacionBoton:hover{
+    transform: scale(1.2);
+    transition: all 1.5s;
+}

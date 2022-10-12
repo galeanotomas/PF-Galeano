@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Las mejores máquinas industriales del país al alcance de tus manos">
+    <meta name="keywords" content="máquinas industriales, equipamientos industriales, herramientas, industria, venta, prestación">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Techine</title>
+    <title>Techine | Home</title>
 </head>
 <body>
     <header>
@@ -33,21 +35,29 @@
             <img src="./assets/images/FotoPrincipal1.jpg" alt="Imagen de engranajes" class="fondoPrincipal">
             <h1 class="tituloPrincipal posicionTitulo">¡La empresa que más sabe de maquinarias en Argentina!</h1>
         </section>
-        <figure class="disposicionIndex1">
-            <!--carrusel-->
-            <div>
-                <h2>Banner 1</h2>
-                <img src="./assets/images/fotoCarousel1.jpg" alt="Hombre soldando">
+        <div class="carouselFlex">
+            <div id="carouselExampleControls" class="carousel slide carouselEdit" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/fotoCarousel1.jpg" class="d-block w-100" alt="Hombre lijando metal">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/fotoCarousel2.jpg" class="d-block w-100" alt="Hombre soldando">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/fotoCarousel3.jpg" class="d-block w-100" alt="Hombre doblando metal con maquina">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div>
-                <h2>Banner 2</h2>
-                <img src="./assets/images/fotoCarousel2.jpg" alt="Hombre con sierra eléctrica">
-            </div>
-            <div>
-                <h2>Banner 3</h2>
-                <img src="./assets/images/fotoCarousel3.jpg" alt="Hombre soldando">
-            </div>
-        </figure>
+        </div>
         <section class="disposicionIndex2">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zVijd6IIL4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="iframeYoutube"></iframe>
             <aside class="ajusteMobile">

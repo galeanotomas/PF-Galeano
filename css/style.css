@@ -343,6 +343,7 @@ h2 {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
+    align-items: center;
   }
   .ajusteMobile {
     width: 80%;
@@ -425,6 +426,12 @@ h2 {
   .flexBoxes {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+  }
+  .tituloPrincipal {
+    font-size: 2.8em;
+  }
+  .posicionTitulo {
+    top: 3em;
   }
 }
 @media screen and (min-width: 1200px) {
